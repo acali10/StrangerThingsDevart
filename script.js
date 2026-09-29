@@ -7,7 +7,7 @@ ScrollSmoother.create({
 
 function animarPagina(){
 	// ANIMACOES HERO
-gsap.from("hero", {
+gsap.from(".hero", {
 	opacity: 0,
 	duration: 1
 });
